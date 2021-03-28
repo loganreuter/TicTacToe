@@ -1,0 +1,28 @@
+﻿<Page x:Class="TicTacToe.Home"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TicTacToe"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="400"
+      Title="Home">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" FontSize="60">
+            Tic Tac Toe
+        </TextBlock>
+
+
+        <Button
+            x:Name="Play"
+            Content="Play"
+            Width="50"
+            Height="50"
+            Click="OnClickPlay"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Bottom"
+            Margin="0 0 0 80"
+        />
+    </Grid>
+</Page>
